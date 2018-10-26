@@ -1,0 +1,11 @@
+
+image: node: 6.12.3
+test:
+  script: |
+    cd project
+    npm install
+    node node_modules/jest/bin/jest.js
+
+  cache:
+   paths:
+    -"project/node_modules/"
