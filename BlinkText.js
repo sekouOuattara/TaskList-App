@@ -2,6 +2,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 
+// Blinking text
 export default class BlinkText extends React.Component {
   constructor(props) {
     super(props);
